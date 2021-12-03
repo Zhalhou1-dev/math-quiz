@@ -8,10 +8,10 @@ function send(){
     input_box="<br>Answer: <input type='text' id='input_text_box'>";
     check_button="<br><br><button class='btn btn-success' onclick='check()'>Check</button>";
     row=question_number+input_box+check_button;
-    docuement.getElementById("output").innerHTML=row;
+    document.getElementById("output").innerHTML=row;
 
     document.getElementById("num1").innerHTML="";
-    docuement.getElementById("num2").innerHTML="";
+    document.getElementById("num2").innerHTML="";
 
 }
 function check(){
