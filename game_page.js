@@ -10,7 +10,7 @@ function send(){
     row=question_number+input_box+check_button;
     docuement.getElementById("output").innerHTML=row;
 
-    docuement.getElementById("num1").innerHTML="";
+    document.getElementById("num1").innerHTML="";
     docuement.getElementById("num2").innerHTML="";
 
 }
